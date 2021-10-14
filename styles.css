@@ -1,0 +1,170 @@
+html {
+    font-family: monospace;
+}
+
+body {
+    background-image: url(koekjes.jpg);
+    background-size: cover;
+    font-size: 16px;
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    height: 100vh;
+    flex-direction: column;
+    color: #082032;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background: #D83A56;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    box-shadow: 0 0 15px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: #082032;
+    text-decoration: none;
+}
+
+#sign header li a {
+    align-items: center;
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header,
+main,
+footer {
+    flex-shrink: 0;
+}
+
+.art1 {
+    padding: 40px 0px 0px 0px;
+    width: 400px;
+    float: left;
+    height: 400px;
+    color: #082032;
+    font: weight 10px;
+    background-size: cover;
+    margin: 10px;
+    text-align: center;
+    text-decoration-color: #D83A56;
+}
+
+.art2 {
+    padding: 40px 0px 0px 0px;
+    width: 400px;
+    float: left;
+    height: 200px;
+    color: #082032;
+    font: weight 10px;
+    margin: 20px;
+    text-align: center;
+    text-decoration-color: #D83A56;
+    display: inline;
+}
+
+#art1 {
+    float: left;
+    padding: 40px 0px 0px 0px;
+    margin-top: 50px;
+    width: 400px;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.content1 {
+    float: left;
+    height: 200px;
+    width: 100%;
+}
+
+.content2 {
+    height: 200px;
+    width: 260px;
+    margin-right: -260px;
+}
+
+#image {
+    height: 800px;
+    width: 460px;
+    margin-right: -260px;
+}
+
+#form1 {
+    font-size: 20px;
+    font-weight: 50px;
+    font-family: cursive;
+    margin: auto;
+    margin: 10px 5px;
+
+}
+
+#form2 {
+    margin: 10px 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
+}
+
+input[type=text],
+input[type=password] {
+    width: 200px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+footer {
+    position: fixed;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #D83A56;
+    color: #082032;
+    text-align: center;
+    box-shadow: 0 0 15px 0 black;
+    align-items: center;
+    margin-top: 50px;
+    padding: 40px 0px 0px 0px;
+}
